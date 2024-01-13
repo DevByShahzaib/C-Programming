@@ -1,15 +1,15 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int x = 4;
-    x++;
-    cout<<x<<endl;
-
-
-    int y = 5;
-    cout<<y++<<endl;
-
-
-    int c = 6;
-    cout<<++c;
+    int x;
+    x = 6;
+    x--;//5
+    x++;//6
+    x++;//7
+    x--;//6
+    x--;//5
+    x++;//6
+    x++;//7
+    x++;//8
+   cout<<x<<endl;
 }

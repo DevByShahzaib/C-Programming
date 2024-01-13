@@ -6,4 +6,7 @@ int main(){
     cin>>x;
     cout<<"The square of this number is : ";
     cout<<x*x;
+
+
+    //take input of two numbers and show  sum of both of them
 }
